@@ -116,7 +116,7 @@ function Table(props) {
                 </tr>
                 </tbody>
             </table>
-            <button className="add-button" onClick={adduserFunc}>{add}</button>
+            <button className="btn btn-primary" onClick={adduserFunc}>{add}</button>
         </div>
         :
         <div>
@@ -134,7 +134,7 @@ function Table(props) {
                     {makeTable()}
                 </tbody>
             </table>
-            <button className="add-button btn btn-primary" onClick={adduserFunc}>{add}</button>
+            <button className="btn btn-primary" onClick={adduserFunc}>{add}</button>
         </div>
     )
 }
