@@ -1,0 +1,36 @@
+.edit-update-button,
+.delete-button {
+    color: black;
+    background: none;
+    border: 0px;
+    display: none;
+}
+.edit-update-button:hover,
+.delete-button:hover {
+    opacity: 70%;
+}
+.input-box-edit {
+    background-color: gray;
+    color: white;
+    outline: none;
+    padding: 5px 5px;
+    border: 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.button {
+    display: none;
+    border: 0px;
+}
+.border-class-hover:hover {
+    .button {
+        display:table-cell;
+    }
+    .edit-update-button,
+    .delete-button {
+        display: table-cell;
+    }
+}

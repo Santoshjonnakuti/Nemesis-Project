@@ -1,0 +1,9 @@
+.border-class {
+    border:1px solid black;
+    border-collapse:collapse;
+    padding: 5px 5px;
+}
+.add-button {
+    border: 0px;
+    background: none;
+}
